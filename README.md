@@ -50,8 +50,10 @@ double calculate_exp(double x, long n);
 ```cpp
 #include "../include/prototype.h"
 ```
+### 5. Comment all `main` functions
+We need to comment rename all `main` functions from the files, other than `test_file.cpp`. If they remain as `main` the tests won't work.
 
-### 5. Edit the makefile as follows:
+### 6. Edit the makefile as follows:
 ```makefile
 # Makefile - Please preserve indentation with TAB characters
 
@@ -82,7 +84,7 @@ run: all
 				echo "Wrote log file Results_$$version.log."; \
 		done
 ```
-### 6. Clean, Compile, and Run the Tests
+### 7. Clean, Compile, and Run the Tests
 Now, all we need to do is compile and run the tests. The following command does it:
 ```bash
 $ make run
