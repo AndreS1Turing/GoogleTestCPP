@@ -51,7 +51,7 @@ double calculate_exp(double x, long n);
 #include "../include/prototype.h"
 ```
 ### 5. Comment all `main` functions
-We need to comment rename all `main` functions from the files, other than `test_file.cpp`. If they remain as `main` the tests won't work.
+We must comment or rename all `main` functions from the files, other than `test_file.cpp`. If they remain as `main` the tests won't work.
 
 ### 6. Edit the makefile as follows:
 ```makefile
